@@ -1,5 +1,7 @@
-user looses
-Rule: "Minesweeper" app cheating mode is enabled
+
+Feature:user looses "Minesweeper" game
+
+Background: "Minesweeper" app cheating mode is enabled
     Given "Minesweeper" app is opened
     When user enables cheating mode
     Then all hidden mines should be shown 
